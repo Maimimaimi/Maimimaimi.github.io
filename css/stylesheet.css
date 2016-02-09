@@ -1,6 +1,12 @@
 a {text-decoration: none;
 color:white;}
 
+.coverpic{
+  width: 100%;
+  height: 100%;
+  background: url(images/maimi.jpg) no-repeat center center;
+  background-size: cover;
+}
 
 .beige{
   font-family: "Helvetica", Minion Pro;
@@ -23,9 +29,21 @@ color:white;}
   background-size: cover;
 }
 
+#schuh{
+  background: url(../images/schuh.jpg) fixed bottom center;
+  background-size: cover;
+}
+
 .wrapper {
   background-image: url(.../images/auto.jpg)fixed bottom center;
   background-size: cover;
+}
+
+#white{
+    font-size: 20px;
+    height: auto;
+    width: 90%;
+  }
 }
 
 #poem {
@@ -75,6 +93,7 @@ color:white;}
   background-size:cover;
 }
 
+
 img {
   height: 250px;
   width: 350px;
@@ -87,12 +106,68 @@ table {
   border-spacing: 15px;
 }
 
+div h3{
+  float:right;
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: font-family: 'Quicksand', sans-serif;
+}
+
+.scrollbar{
+  width: 5333.33333pt;
+  height:400px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.scrollbar-inc{
+  width: 7687.5pt;
+  height:600px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.scrollbar-pen{
+  width: 3000pt;
+  height:600px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.scrollbar-fotos{
+  width: 9000pt;
+  height:600px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 200px;
+}
+
+.scrollbar-fineliner{
+  width: 2000pt;
+  height:400px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.scroll-box{
+  width: 90%;
+  float:right;
+  height:400px;
+  white-space:nowrap;
+  overflow-x:inherit;
+  overflow-y:hidden;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 .illu {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 1);
     height: 400px;
     width: 400px;
     margin: 20px;
+    border: 1px white;
 }
 
 
@@ -119,6 +194,7 @@ img:hover{
 a.menu:hover{
   font-weight:bold;
 }
+
 
 .hello {
   font-family: 'Quicksand', sans-serif;
@@ -147,6 +223,34 @@ a.menu:hover{
   background: rgba(0, 0, 0, 0.7);
 }
 
+
+.white {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  background: white;
+}
+
+.fotogallery {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 
 .gallerywhite {
@@ -179,7 +283,6 @@ a.menu:hover{
 }
 
 
-
 .bothbuttons {
   padding-right: 200px;
   padding-top: 15px;
@@ -200,13 +303,6 @@ a.menu:hover{
   margin-top: 30px;
 }
 
-.space {
-  opacity: 0;
-  width: 100px;
-}
-
-
-
 .row {display: inline-block;
 width: 100%;
 }
@@ -225,4 +321,40 @@ width: 100%;
 .space {
   height: 30px;
   width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  img {
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+  }
+
+  .header {
+    background-color: rgba(0, 0, 0, 0.8);;
+    height: 250px;
+    position: fixed; top: 0; right: 0; left: 0;
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    margin-bottom: 50px;
+  }
+
+  .button {
+    width: 100px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+    margin-top: 30px;
+  }
+  .sketches{
+    padding-bottom: 100px;
+    margin-top: 200px;
+  }
 }
