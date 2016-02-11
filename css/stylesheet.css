@@ -1,6 +1,36 @@
 a {text-decoration: none;
 color:white;}
 
+.collage{
+  width:450px;
+  height:600px;
+  display: block;
+  margin: 0px auto;
+}
+
+.pappe{
+  text-align: center;
+  height: 600px;
+  margin: 50px;
+}
+
+.gallery-cell {
+  width: 450px;
+  height:600px;
+  margin-right: 10px;
+}
+
+.about{
+  width:800px;
+  height:300px;
+}
+
+.box{
+  padding: 4%;
+  height:30%;
+  width:399px;
+  display: inline-block;
+}
 
 .coverpic{
   width: 100%;
@@ -8,8 +38,8 @@ color:white;}
 }
 
 .wrapper {
-  background-image: url(.../images/auto.jpg)fixed bottom center;
-  background-size: cover;
+  width: 80%;
+  margin-top: 100px;
 }
 
 
@@ -111,18 +141,6 @@ a.menu:hover{
   font-weight:bold;
 }
 
-.collage{
-  width:450px;
-  height:600px;
-  display: block;
-  margin: 0px auto;
-}
-
-.pappe{
-  text-align: center;
-  height: 600px;
-  margin: 50px;
-}
 
 .navimg{
   display:inline-block;
