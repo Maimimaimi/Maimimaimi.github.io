@@ -1,70 +1,15 @@
 a {text-decoration: none;
 color:white;}
 
+
 .coverpic{
   width: 100%;
   height: 100%;
-  background: url(images/maimi.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.beige{
-  font-family: "Helvetica", Minion Pro;
-  font-weight: lighter;
-  background-color: #BCD3B2;
-}
-
-#leaf{
-  background: url(../images/fotography/leafsw.jpg) fixed bottom center;
-  background-size: cover;
-}
-
-#backpack{
-  background: url(../images/backpack.jpg) fixed top center;
-  background-size:cover;
-}
-
-#auto{
-  background: url(../images/auto.jpg) fixed bottom center;
-  background-size: cover;
-}
-
-#schuh{
-  background: url(../images/schuh.jpg) fixed bottom center;
-  background-size: cover;
 }
 
 .wrapper {
   background-image: url(.../images/auto.jpg)fixed bottom center;
   background-size: cover;
-}
-
-#white{
-    font-size: 20px;
-    height: auto;
-    width: 90%;
-  }
-}
-
-#poem {
-  font-size: 20px;
-  height: auto;
-  width: 90%;
-}
-
-#transparent {
-  opacity: 0
-}
-
-
-#impressum {
-  background-color: rgba(255, 255, 255, 0.7);;
-  color: black;
-  font-size: 20px;
-  padding: 30px;
-  width: 70%;
-  float: right;
-  margin-right: 20px;
 }
 
 #textright {
@@ -93,13 +38,14 @@ color:white;}
   background-size:cover;
 }
 
-
+/*
 img {
   height: 250px;
   width: 350px;
   display: inline;
   margin: 20px;
 }
+*/
 
 table {
   display: inline;
@@ -162,6 +108,17 @@ div h3{
   margin-right: 0;
 }
 
+.scroll-box-fotos{
+  width: 90%;
+  float:right;
+  height:800px;
+  white-space:nowrap;
+  overflow-x:inherit;
+  overflow-y:hidden;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .illu {
     background-color: rgba(0, 0, 0, 1);
     height: 400px;
@@ -197,6 +154,9 @@ a.menu:hover{
 
 
 .hello {
+  float: left;
+  margin-left: 80px;
+  display: inline-block;
   font-family: 'Quicksand', sans-serif;
   width: 100%;
   margin-left: auto;
@@ -252,6 +212,38 @@ a.menu:hover{
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.collage{
+  width:450px;
+  height:600px;
+  display: block;
+  margin: 0px auto;
+}
+
+.pappe{
+  text-align: center;
+  height: 600px;
+  margin: 50px;
+}
+
+.navimg{
+  display:inline-block;
+  height: 300px;
+  width: 250px;
+  background-size:cover;
+}
+
+.navimg-quer{
+  display:inline-block;
+  height: 300px;
+  width: 400px;
+  background-size:cover;
+}
+a.mouseover:link{
+  background-image: url(images/pappe/mann.jpg);
+}
+a.mouseover:hover{
+  background-image: url(images/home/aufgeklebtes.jpg);
+}
 
 .gallerywhite {
   width: 100%;
@@ -323,21 +315,62 @@ width: 100%;
   width: 100%;
 }
 
+
+.sketches{
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+
+
+.blank{
+  background-color: white;
+}
+@media screen and (max-width: 1013px){
+
+  .navimg{
+    display:inline-block;
+    height: 150px;
+    width: 125px;
+    background-size:cover;
+  }
+
+  .navimg-quer{
+    display:inline-block;
+    height: 150px;
+    width: 200px;
+    background-size:cover;
+  }
+
+}
+
 @media screen and (max-width: 768px){
   img {
     height: 250px;
     width: 350px;
-    margin: 20px;
+    margin: 60px;
   }
 
   .header {
     background-color: rgba(0, 0, 0, 0.8);;
-    height: 250px;
+    height: 150px;
     position: fixed; top: 0; right: 0; left: 0;
     width: 100%;
     margin: auto;
     text-align:center;
     margin-bottom: 50px;
+  }
+
+  .bothbuttons {
+    padding-top: 15px;
+    position: center;
   }
 
   .button {
@@ -353,8 +386,21 @@ width: 100%;
     margin: 20px;
     margin-top: 30px;
   }
-  .sketches{
-    padding-bottom: 100px;
-    margin-top: 200px;
-  }
+
+  .navimg{
+      display:block;
+      height: 250px;
+      width: 200px;
+      background-size:cover;
+      margin:0 auto;
+    }
+
+  .navimg-quer{
+      margin:0 auto;
+      display:block;
+      height: 150px;
+      width: 200px;
+      background-size:cover;
+    }
+
 }
