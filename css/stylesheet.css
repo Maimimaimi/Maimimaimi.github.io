@@ -244,6 +244,13 @@ a.menu:hover{
   font-weight:bold;
 }
 
+.aboutimg{
+  display:inline-block;
+  height: 500px;
+  width: 250px;
+  background-size:cover;
+}
+
 
 .navimg{
   display:inline-block;
@@ -338,6 +345,8 @@ width: 100%;
 	display: none;
 }
 
+
+
 @media screen and (max-width: 1013px){
 
   .navimg{
@@ -364,6 +373,13 @@ width: 100%;
 
 }
 @media screen and (max-width: 1079px){
+
+	.aboutimg{
+	  display:inline-block;
+	  height: 400px;
+	  width: 200px;
+	  background-size:cover;
+	}
 
 	.call{
 		display: none;
@@ -392,6 +408,14 @@ width: 100%;
 		margin-right: auto;
 	}
 
+	@media screen and (max-width: 897px){
+
+		.aboutimg{
+		  display:block;
+		  height: 400px;
+		  width: 200px;
+		  background-size:cover;
+		}
 
 
 @media screen and (max-width: 768px){
