@@ -338,6 +338,11 @@ width: 100%;
 .blank{
   background-color: white;
 }
+
+.call{
+	display: none;
+}
+
 @media screen and (max-width: 1013px){
 
   .navimg{
@@ -358,8 +363,16 @@ width: 100%;
 	align-self: center;
 }
 
+.call{
+	display: none;
+}
+
 }
 @media screen and (max-width: 1079px){
+
+	.call{
+		display: none;
+	}
 
 	#primary_nav_wrap{
 		text-align: center;
@@ -378,9 +391,17 @@ width: 100%;
 
 @media screen and (max-width: 768px){
 
-.bothbuttons{
-	position:center;
-}
+	#nav_bar ul ul{
+		display:none;
+	}
+
+	.contact{
+		display: none;
+	}
+
+	.call{
+		display: flex;
+	}
 
 	.pappe{
 	  text-align: center;
@@ -402,7 +423,7 @@ width: 100%;
     position: fixed; top: 0; right: 0; left: 0;
     width: 100%;
     margin: auto;
-    text-align:center;
+		align-items: center;
     margin-bottom: 50px;
   }
 
