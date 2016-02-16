@@ -391,10 +391,6 @@ width: 100%;
 
 @media screen and (max-width: 768px){
 
-	#nav_bar ul ul{
-		display:none;
-	}
-
 	.contact{
 		display: none;
 	}
